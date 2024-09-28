@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+} 
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;
+   }
+ 
+
+   .nav-link:hover{
+    font-weight: 700;
+    color:#FF9B00 ;
+    transition: .4s;
+  }
+
+
+  .contactBtn a{
+    padding: 15px 42px;
+    background: #ff9b00;
+    background: -webkit-radial-gradient(circle, #ff9b00 0%, #ed1c24 100%);
+    background: radial-gradient(circle, #ff9b00 0%, #ed1c24 100%);
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif; 
+}
+
+
+
+#bannerPart{
+    background: #06091A;
+    /* width: 785.29px; */
+    height:765px ;
+}
+    
+.bannerTextPart{
+    margin-left: 45px;
+    margin-top: 130px;
+}
+.bannerTextPart h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Space Grotesk",sans-serif;
+    padding-right: 50px;
+}
+
+.bannerTextPart h6{
+    border-bottom: 8px solid #FFC947;
+    width: 100px;
+    padding-top: 30px;
+}
+
+.bannerTextPart p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Space Grotesk",sans-serif;
+    padding-right: 44px;
+}
+
+.praimary_btn a{
+    padding: 15px 42px;
+    background: #ff9b00;
+    background: -webkit-radial-gradient(circle, #ff9b00 0%, #ed1c24 100%);
+    background: radial-gradient(circle, #ff9b00 0%, #ed1c24 100%);
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Space Grotesk",sans-serif;
+}
+
+.banne_img{
+    padding-top: 100px;
+}
+
+.banne_imgOne{
+    bottom: 10px;
+}
+
+.banne_img img{
+    height: 400px;
+}
+.banner_bage{
+    position: relative;
+    padding-top: 100px;
+}
+
+.badge_one{
+    position: absolute;
+    padding: 40px 25px;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    font-size: 30px;
+    font-weight: 700;
+    transform: rotate(-3deg);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.badge_two{
+    position: absolute;
+    padding: 40px 25px;
+    background: #ff9b00;
+    background: -webkit-linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    background: linear-gradient(272deg, #ff9b00 0%, #ed1c24 100%);
+    font-size: 30px;
+    font-weight: 700;
+    transform: rotate(3deg);
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: 10px;
+}
